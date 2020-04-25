@@ -14,7 +14,6 @@
 		6B6C3A8124545F9500363BD6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B6C3A7F24545F9500363BD6 /* LaunchScreen.storyboard */; };
 		6B6C3A8924545FB900363BD6 /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B6C3A8824545FB800363BD6 /* Main.swift */; };
 		6B6C3A8B24545FDF00363BD6 /* Repo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B6C3A8A24545FDF00363BD6 /* Repo.swift */; };
-		6B6C3A8D2454600000363BD6 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B6C3A8C2454600000363BD6 /* Store.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,7 +26,6 @@
 		6B6C3A8224545F9500363BD6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6B6C3A8824545FB800363BD6 /* Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
 		6B6C3A8A24545FDF00363BD6 /* Repo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repo.swift; sourceTree = "<group>"; };
-		6B6C3A8C2454600000363BD6 /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,7 +66,6 @@
 				6B6C3A7C24545F9500363BD6 /* Preview Content */,
 				6B6C3A8824545FB800363BD6 /* Main.swift */,
 				6B6C3A8A24545FDF00363BD6 /* Repo.swift */,
-				6B6C3A8C2454600000363BD6 /* Store.swift */,
 			);
 			path = SwiftUITEA;
 			sourceTree = "<group>";
@@ -155,7 +152,6 @@
 				6B6C3A7524545F9400363BD6 /* AppDelegate.swift in Sources */,
 				6B6C3A7724545F9400363BD6 /* SceneDelegate.swift in Sources */,
 				6B6C3A8B24545FDF00363BD6 /* Repo.swift in Sources */,
-				6B6C3A8D2454600000363BD6 /* Store.swift in Sources */,
 				6B6C3A8924545FB900363BD6 /* Main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
