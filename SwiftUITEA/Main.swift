@@ -43,8 +43,8 @@ func update(model: Model, msg: Msg) -> (Model, AnyPublisher<Msg, Never>) {
     case .searched:
         return (
             model,
-            RepoService
-                .searchPublisher(matching: model.query)
+            Repo
+                .fetch(matching: model.query)
                 .replaceError(with: [])
                 .map { repos in
                     Msg.gotSearchResult(repos: repos)

@@ -16,13 +16,12 @@ struct Repo: Decodable, Identifiable {
     }
 }
 
-
-private struct ReposResponse: Decodable {
-    let items: [Repo]
-}
-
-class RepoService {
-    class func searchPublisher(matching query: String) -> AnyPublisher<[Repo], Error> {
+extension Repo {
+    private struct ReposResponse: Decodable {
+        let items: [Repo]
+    }
+    
+    static func fetch(matching query: String) -> AnyPublisher<[Repo], Error> {
         let session = URLSession(configuration: .ephemeral)
         let decoder = JSONDecoder()
 
@@ -46,4 +45,3 @@ class RepoService {
             .eraseToAnyPublisher()
     }
 }
-
